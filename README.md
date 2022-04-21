@@ -2,6 +2,11 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4.
 
+## Requirements
+1. A web browser (Chrome/Chromium/Firefox reccomended)
+2. NodeJS
+3. Angular CLI
+
 ## How to Run
 1. Clone the git project to a local repo
 2. In the angular CLI, navigate to the location of the cloned repo
