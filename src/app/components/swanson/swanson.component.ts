@@ -9,9 +9,9 @@ import { DataService } from 'src/app/service/data.service';
 
 export class SwansonComponent {
   index: number = 0;
-  joe: string = "";
   quotes: string[] = [];
-
+  //switch
+  show: boolean = false;
   constructor(private service: DataService) { }
 
   public getQuote() {
@@ -38,15 +38,10 @@ export class SwansonComponent {
     this.index -= 1;
   }
 
-  public next(){
+  public next(){ 
     if(this.index == this.quotes.length-1)
     console.log("There is no next entry");
     else
     this.index += 1;
   }
-
-  public all(){
-
-  }
-
 }
