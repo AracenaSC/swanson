@@ -23,11 +23,10 @@
             <button *ngIf="index < quotes.length-1" (click)="next()" type="button" class="btn"
                 id="next-btn">Next</button>
         </div>
-
-        <div *ngIf="show == true" id="all-quotes">
-            <ul *ngFor="let q of quotes">
-                <li>{{q}}</li>
-            </ul>
-        </div>
+    </div>
+    <div *ngIf="show == true" id="all-quotes">
+        <ul *ngFor="let q of quotes">
+            <li>{{q}}</li>
+        </ul>
     </div>
 </div>
