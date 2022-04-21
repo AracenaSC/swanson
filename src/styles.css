@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+/* @font-face {
+    font-family: ;
+    src: url();
+} */
+
+:root{
+--main: rgb(100, 134, 185);
+--accent: rgb(70, 104, 155);
+--back: rgb(252, 245, 241);
+--back2: rgb(230, 205, 191);
+}

@@ -1,0 +1,31 @@
+#nav {
+    height: 70px;
+    background-color: var(--main);
+    color: white;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+#title{
+    font-size: 26pt;
+    font-style: italic;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.nav-link {
+    all:unset;
+    cursor: pointer;
+    position: relative;
+    float:right;
+    top: 30px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 -10px 0 var(--accent);
+    padding: 10px;
+    background-color: var(--back);
+    color: var(--main);
+    margin: 0 10px;
+    font-size: 16pt;
+}
+
